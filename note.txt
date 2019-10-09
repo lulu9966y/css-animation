@@ -1,0 +1,58 @@
+CSS Animation
+1.keyframes
+>animation-name
+>animation-duration
+>animation-timing-function
+>animation-delay
+>animation-direction: reverse
+>animation-fill-mode: forwards
+2. transition
+>transition-property
+>transition-duration
+>transition-timing-function
+>transition-delay
+*transform
+
+CSS Position
+1. default: static
+>not affected by top, bottom, left, and right
+>positioned according to the normal flow
+2. relative
+>you can change top, bottom, left and right (not use)
+>relative to normal position
+>two senarios:
+child element has an absolute position
+animation
+3. absolute
+>use top, bottom, left and right
+>relative to parent element, but if parent element has no position, the parent element is body
+4. fixed
+>relative to viewport
+5.sticky
+>from relative to fixed as scolling
+
+CSS Display
+1. inline: no width and height
+2. block: new line
+3. inline-block
+
+CSS Text - text inside a block
+>font-family, font-size, font-weight, color
+>text-alignment
+>line-height: 1.6
+>letter-spacing: 3px
+
+CSS Units
+default font-size: 16px
+1. rem: relative to root element font size
+em: relative to parent element font size
+>most use for font-size, padding, margin
+* great for accessibility
+2. vh & vw
+>most use for width, height
+
+
+
+
+
+
